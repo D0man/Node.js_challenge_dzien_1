@@ -1,1 +1,1 @@
-//Twój kod
+console.log(process.argv.splice(2,process.argv.length).reduce((p,n)=> Number(p)+Number(n)));
